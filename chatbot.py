@@ -24,7 +24,7 @@ def load_pdfs_from_folder(folder_path):
 
 st.title("CYBER SECURITY STUDY ASSISTANT - BY FIELD CISO ADVISORY")
 
-folder_path = r"\files"
+folder_path = "files"
 # Load and read the PDF file "linear.pdf" using PyPDFLoader.
 # loader = PyPDFLoader(load_pdfs_from_folder(folder_path))
 data = load_pdfs_from_folder(folder_path)
